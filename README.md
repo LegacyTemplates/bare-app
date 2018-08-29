@@ -1,8 +1,8 @@
 # bare-webapp
 
-[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/bare-webapp.png)](http://bare.web-app.io)
+[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/bare-webapp.png)](http://bare-webapp.web-templates.io)
 
-> Browse [source code](https://github.com/NetCoreTemplates/bare-webapp), view live demo [bare.web-app.io](http://bare.web-app.io) and install with [dotnet-new](https://docs.servicestack.net/dotnet-new):
+> Browse [source code](https://github.com/NetCoreTemplates/bare-webapp), view live demo [bare-webapp.web-templates.io](http://bare-webapp.web-templates.io) and install with [dotnet-new](https://docs.servicestack.net/dotnet-new):
 
     $ npm install -g @servicestack/cli
 
