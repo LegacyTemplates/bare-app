@@ -1,21 +1,29 @@
 # bare-webapp
 
-[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/csharp-templates/bare-webapp.png)](http://bare-webapp.web-templates.io)
+A basic Bootstrap + jQuery multi-page Content Website with dynamic Menu Navigation + dynamic API pages
 
-> Browse [source code](https://github.com/NetCoreTemplates/bare-webapp), view live demo [bare-webapp.web-templates.io](http://bare-webapp.web-templates.io) and install with [dotnet-new](https://docs.servicestack.net/dotnet-new):
+[![](https://raw.githubusercontent.com/NetCoreApps/TemplatePages/master/src/wwwroot/assets/img/screenshots/bare.png)](http://bare.web-app.io)
 
-    $ npm install -g @servicestack/cli
+## Install
+
+Run as a .NET Core Web App (Windows, macOS, Linux):
+
+    $ dotnet tool install -g web
 
     $ dotnet-new bare-webapp ProjectName
+    $ cd ProjectName
+    $ web
 
-# .NET Core 2.1 Bare WebApp
+Run as a Desktop App (Windows only):
 
-The `/app` folder contains the Rockwind Web App project.
+    $ dotnet tool install -g app
 
-The `/web` folder contains the [Web Apps binaries](https://github.com/NetCoreWebApps/Web).
+    $ dotnet-new bare-webapp ProjectName
+    $ cd ProjectName
+    $ app
 
-To run in VS Code type `Ctrl+Shift+B` to run the configured `build` task, otherwise in terminal run:
+> Requires [.NET Core 2.1](https://www.microsoft.com/net/download/dotnet-core/2.1).
 
-    $ dotnet web/app.dll ../app/web.settings
+## Learn
 
-See [templates.servicestack.net/docs/web-apps](http://templates.servicestack.net/docs/web-apps) for more info on ServiceStack Web Apps.
+See [templates.servicestack.net/docs/web-apps](http://templates.servicestack.net/docs/web-apps) to learn about ServiceStack .NET Core 2.1 Web Apps.
