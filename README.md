@@ -15,6 +15,8 @@ Run as a .NET Core Web App (Windows, macOS, Linux):
     $ cd ProjectName
     $ web
 
+> To run in VS Code type `Ctrl+Shift+B` to run the configured `build` task.
+
 Run as a Desktop App (Windows only):
 
     $ npm install -g @servicestack/cli
