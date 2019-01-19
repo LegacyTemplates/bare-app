@@ -8,10 +8,9 @@ A basic Bootstrap + jQuery multi-page Content Website with dynamic Menu Navigati
 
 Run as a .NET Core Web App (Windows, macOS, Linux):
 
-    $ npm install -g @servicestack/cli
     $ dotnet tool install -g web
 
-    $ dotnet-new bare-webapp ProjectName
+    $ web new bare-webapp ProjectName
     $ cd ProjectName
     $ web
 
@@ -19,10 +18,9 @@ Run as a .NET Core Web App (Windows, macOS, Linux):
 
 Run as a Desktop App (Windows only):
 
-    $ npm install -g @servicestack/cli
     $ dotnet tool install -g app
 
-    $ dotnet-new bare-webapp ProjectName
+    $ app new bare-webapp ProjectName
     $ cd ProjectName
     $ app
 
