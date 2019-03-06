@@ -28,4 +28,4 @@ Run as a Desktop App (Windows only):
 
 ## Learn
 
-See [templates.servicestack.net/docs/web-apps](http://templates.servicestack.net/docs/web-apps) to learn about ServiceStack .NET Core 2.1 Web Apps.
+See [https://sharpscript.net/docs/sharp-apps](https://sharpscript.net/docs/sharp-apps) to learn about Sharp Apps.
