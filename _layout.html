@@ -11,10 +11,10 @@
     <link rel="stylesheet" href="/assets/css/bootstrap.css">
     <link rel="stylesheet" href="/assets/css/default.css">
     <link rel="stylesheet" href="/css/app.css">
-    {{ 'svg-icons' | cssIncludes | svgFill('#343a40') }}
+    {{ 'svg-icons' |> cssIncludes |> svgFill('#343a40') }}
 </head>
 <body>
-    <i hidden>{{ '/js/hot-fileloader.js' | ifDebugIncludeScript }}</i>
+    <i hidden>{{ '/js/hot-fileloader.js' |> ifDebugIncludeScript }}</i>
 
     <!-- Navigation -->
     <div>
@@ -28,7 +28,7 @@
                   aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              {{ 'menu' | partial }}
+              {{ 'menu' |> partial }}
         </div>
       </nav>
 
@@ -42,7 +42,7 @@
     <script src="/assets/js/bootstrap.min.js"></script>
     <script src="/assets/js/default.js"></script>
 
-    {{ scripts | raw }}
+    {{ scripts |> raw }}
 
 </body>
 </html>
