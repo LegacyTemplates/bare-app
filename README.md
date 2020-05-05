@@ -1,4 +1,4 @@
-# bare-webapp
+# bare-app
 
 A basic Bootstrap + jQuery multi-page Content Website with dynamic Menu Navigation + dynamic API pages
 
@@ -10,7 +10,7 @@ Run as a .NET Core Web App (Windows, macOS, Linux):
 
     $ dotnet tool install -g x
 
-    $ x new bare-webapp ProjectName
+    $ x new bare-app ProjectName
     $ cd ProjectName
     $ x
 
@@ -20,7 +20,7 @@ Run as a Desktop App (Windows only):
 
     $ dotnet tool install -g app
 
-    $ app new bare-webapp ProjectName
+    $ app new bare-app ProjectName
     $ cd ProjectName
     $ app
 
