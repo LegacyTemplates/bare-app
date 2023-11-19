@@ -20,7 +20,7 @@ Run as a Desktop App (Windows only):
 
     $ dotnet tool install -g app
 
-    $ app new bare-app ProjectName
+    $ app new LegacyTemplates/bare-app ProjectName
     $ cd ProjectName
     $ app
 
